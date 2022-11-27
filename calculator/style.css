@@ -38,3 +38,6 @@ input:focus {
 .col:last-child {
     background-color: #DC3535;
 }
+.col:hover {
+    background-color: #E7EF08;   
+}
