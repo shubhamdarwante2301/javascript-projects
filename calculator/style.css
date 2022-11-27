@@ -1,43 +1,49 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 #app {
-    width: 100vw;
-    height: 100vh;
+  width: 100vw;
+  height: 100vh;
 }
 .calci {
-    background-color: gray;
-    border-radius: 10px;
-    min-width: 340px;
+  background-color: gray;
+  border-radius: 10px;
+  min-width: 340px;
 }
 .output {
-    width: 100%;
-    height: 20%;
-    background-color: grey;
+  height: 89px;
 }
+.output p {
+  width: 100%;
+  /* height: 20%; */
+  margin-bottom: 7px;
+  text-align: start;
+  /* background-color: red; */
+}
+
 input {
-    width: 100%;
-    font-size: 24px;
-    padding: 10px 0;
-    margin: 0;
-    border: 0px solid white;
+  width: 100%;
+  font-size: 24px;
+  padding: 10px 0;
+  margin: 0;
+  border: 0px solid white;
 }
 input:focus {
-    border-color: white;
+  border-color: white;
 }
 .col {
-    background-color: #fff;
-    border: 1px solid black;
-    text-align: center;
-    margin: 1px;
-    border-radius: 5px;
-    cursor: pointer;
+  background-color: #fff;
+  border: 1px solid black;
+  text-align: center;
+  margin: 1px;
+  border-radius: 5px;
+  cursor: pointer;
 }
 .col:last-child {
-    background-color: #DC3535;
+  background-color: #dc3535;
 }
 .col:hover {
-    background-color: #E7EF08;   
+  background-color: #e7ef08;
 }
