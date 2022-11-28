@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    text-align: center;
+}
+#container {
+    width: 50vw;
+    height: 50vh;
+    margin: auto;
+    position: relative;
+    background: linear-gradient(to top, cyan, purple);
+}
+#player {
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    background-color: red;
+    color: #fff;
+    text-align: center;
+    line-height: 40px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
