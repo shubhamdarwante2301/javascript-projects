@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: rgb(20, 20, 20);
+}
+div {
+    width: 105px;
+    height: 200px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+div span {
+    display: inline-block;
+    width: 35px;
+    height: 0;
+    background-color: red;
+    position: absolute;
+}
+.start {
+    bottom: 0;
+    left: 0;
+    animation: animate 1s linear forwards;
+    animation-delay: 1s;
+}
+.center {
+    top: 0;
+    left: 0;
+    box-shadow: 0 0 10px;
+    transform: skewX(19deg);
+    transform-origin: top left;
+    animation: animate 1s linear forwards;
+    animation-delay: 2s;
+}
+.end {
+    bottom: 0;
+    right: 0;
+    box-shadow: 0 0 10px;
+    animation: animate 1s linear forwards;
+    animation-delay: 3s;
+}
+@keyframes animate {
+    100% {
+        height: 100%;
+    }
+}
