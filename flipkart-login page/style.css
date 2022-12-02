@@ -18,6 +18,16 @@ body {
     transform: translate(-50%, -50%);
     border: 1px solid black;
 }
+@media (max-width: 500px) {
+    .container {
+        width: 95%;
+    }
+}
+@media (max-width: 800px) {
+    .container {
+        width: 70%;
+    }
+}
 .first {
     width: 40%;
     height: 100%;
