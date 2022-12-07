@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
+    <!-- fontawsome cdn -->
+    <script src="https://kit.fontawesome.com/ac683faef9.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="toast">
+        <ul id="toast">
+            <!-- <li>task addedd successfully</li>
+            <li>task addedd successfully</li> -->
+        </ul>
+    </div>
+    <div class="container">
+        <h2><i class="fa-solid fa-file-pen"></i>To-Do List</h2>
+        <input type="text" id="input" placeholder="Enter your task here">
+        <button id="add-todo-btn">Add Task</button>
+        <p>Total tasks: <span id="total">0</span></p>
+
+        <div class="todos">
+            <ul id="todo-list">
+                <li>
+                    <input type="checkbox" id="temp" checked>
+                    <label for="temp">Add Your First To-Do</label>
+                    <i class="fa-solid fa-trash-can" id="delete"></i>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
